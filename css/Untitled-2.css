@@ -1,0 +1,120 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix{
+	clear: both;
+	padding: 100px;
+}
+#outer{
+	width: 900px;
+	height: 1100px;
+	background: #968D8D;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	background: #C8B8B8;
+}
+.logo{
+	width: 100%;
+	height: 60px;
+	background: white;
+}
+.logo img{
+	height: 45px;
+	margin-left: 5px;
+	margin-top: 2px;
+}
+.menu{
+	width: 100%;
+	height: 46px;
+	background: black;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+	line-height: 45px;
+	margin: 0 17px;
+}
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+}
+.menu ul li a:hover{
+	color: blue;
+}
+.left{
+	width: 100%;
+	height: 700px;
+	background: #C3B8B8;
+	float: left;
+	text-align: center;
+}
+.left h1{
+	text-align: center;
+	margin-bottom: 20px;
+	color: #E00311
+}
+.left p{
+	text-align: justify;
+	padding: 10px;
+}
+.left img{
+	width: 30%;
+}
+.text-box{
+	width: 50%;
+}
+.img-benner{
+	width: 50%;
+}.img-benner{
+	width: 50%;
+	display: inline-block;
+	margin-left: -7px;
+}
+.text-box hr{
+	margin: 15px 0;
+	width: 50px;
+	border-color: green;
+}
+.text-box p{
+	margin-bottom: 20px;
+}
+.btn{
+	background: #1627A8;
+	padding: 10px 30px;
+	color:white;
+	text-decoration: none;
+}
+.btn-transparent{
+	background: transparent;
+	border: 2px solid grey;
+}
+.footer{
+	width: 100%;
+	height: 100px;
+	background: black;
+	padding-top: 10px;
+}
+.footer-menu ul{
+	list-style: none;
+	text-align: center;
+}
+.footer-menu ul li{
+	display: inline-block;
+	margin: 0 20px;
+}
+.footer-menu ul li a{
+	color: green;
+	text-decoration: none;
+}
+.footer p{
+	color: green;
+	text-align: center;
+	margin-top: 30px;
+}
